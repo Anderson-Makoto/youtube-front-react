@@ -1,6 +1,8 @@
 import React from 'react';
 import Topbar from '../components/top_bar/Top-bar'
 import LeftBar from '../components/leftBar/LeftBar'
+import Inicio from '../components/inicio/Inicio'
+import { styles } from './style'
 
 function App() {
   return(
@@ -8,9 +10,15 @@ function App() {
       <Topbar>
 
       </Topbar>
-      <LeftBar>
+      <styles.content>
+         <LeftBar>
+          
+          </LeftBar>
+          <Inicio>
+            
+          </Inicio>
+      </styles.content>
         
-      </LeftBar>
     </div>
 
   );

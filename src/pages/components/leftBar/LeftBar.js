@@ -6,22 +6,22 @@ export default class LeftBar extends Component {
         return (
             <styles.content>
                 <div id='inicio'>
-                    <styles.icone cor={'red'}></styles.icone>    
+                    <styles.icone selectedIcon={1}></styles.icone>    
                     <div className='texto'>Início</div>
                 </div>
                 
                 <div id='em-alta'>
-                    <styles.icone cor={'black'}></styles.icone>    
+                    <styles.icone selectedIcon={2}></styles.icone>    
                     <div className='texto'>Em Alta</div>
                 </div>
                 
                 <div id='inscricoes'>
-                    <styles.icone cor={'pink'}></styles.icone>    
+                    <styles.icone selectedIcon={3}></styles.icone>    
                     <div className='texto'>Inscrições</div>
                 </div>
                 
                 <div id='bibliotecas'>
-                    <styles.icone cor={'green'}></styles.icone>    
+                    <styles.icone selectedIcon={4}></styles.icone>    
                     <div className='texto'>Bibliotecas</div>
                 </div>
                 
